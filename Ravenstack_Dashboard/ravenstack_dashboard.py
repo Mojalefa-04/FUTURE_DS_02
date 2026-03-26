@@ -21,7 +21,8 @@ warnings.filterwarnings('ignore')
 # ─────────────────────────────────────────────
 # CONFIGURATION
 # ─────────────────────────────────────────────
-DATA_DIR = "/Users/promojz/Documents/FutureInterns/FUTURE_DS_02/Dataset"   # ← change this if your CSVs are in a different folder
+from pathlib import Path
+DATA_DIR = Path(__file__).parent / "Dataset"   # ← change this if your CSVs are in a different folder
 
 st.set_page_config(
     page_title="RavenStack · Retention Dashboard",

@@ -7,7 +7,7 @@ An interactive data analytics dashboard built with **Streamlit**, **Plotly**, an
 
 ---
 
-## 🔗 Live Demo
+## 🔗 Live Dashboard
 
   [View the Live Dashboard](https://mojalefa-04-fut-ravenstack-dashboardravenstack-dashboard-q4thtm.streamlit.app/)
 

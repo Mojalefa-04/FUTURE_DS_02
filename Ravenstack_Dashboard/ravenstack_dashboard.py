@@ -141,8 +141,8 @@ def run_sql_queries(accounts, churn_events, feature_usage, subscriptions, suppor
                ROUND(AVG(s.mrr_amount), 0) AS avg_mrr,
                ROUND(SUM(s.mrr_amount), 0) AS total_mrr,
                ROUND(AVG(s.duration_days), 0) AS avg_lifetime_days
-        FROM accounts a
-        JOIN subscriptions s ON a.account_id = s.account_id
+        FROM accounts s
+        JOIN subscriptions a ON a.account_id = s.account_id
         GROUP BY a.churn_flag
     """).df()
 

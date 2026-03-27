@@ -91,8 +91,8 @@ The project is broken into **5 learning steps**:
 | #1 churn reason | **Feature gaps (19%)** |
 | Best retention channel | **Partner referrals (85.4% retention)** |
 | Highest churn country | **Germany (32%)** |
-| Avg lifetime — active customers | **303 days** |
-| Avg lifetime — churned customers | **105 days** |
+| Avg lifetime — active customers | **170 days** |
+| Avg lifetime — churned customers | **88 days** |
 | Lost MRR from churn | **$2.35M** |
 
 ---

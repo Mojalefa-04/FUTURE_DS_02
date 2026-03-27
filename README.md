@@ -1,5 +1,8 @@
 # RavenStack — Customer Retention Analysis Dashboard
 
+**Author:** [Mojalefa-04](https://github.com/Mojalefa-04)  
+**Created:** March 2026
+
 An interactive data analytics dashboard built with **Streamlit**, **Plotly**, and **DuckDB** to analyze customer churn patterns, retention trends, and lifetime value for a subscription-based SaaS business.
 
 ---
@@ -164,7 +167,7 @@ To deploy your own copy:
 
 ---
 
-## Author
+## 
 
 **Your Name**
 - GitHub: [@Mojalefa-04](https://github.com/Mojalefa-04)

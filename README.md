@@ -1,4 +1,4 @@
-# 📊 RavenStack — Customer Retention Analysis Dashboard
+# RavenStack — Customer Retention Analysis Dashboard
 
 An interactive data analytics dashboard built with **Streamlit**, **Plotly**, and **DuckDB** to analyze customer churn patterns, retention trends, and lifetime value for a subscription-based SaaS business.
 
@@ -6,12 +6,12 @@ An interactive data analytics dashboard built with **Streamlit**, **Plotly**, an
 
 ## 🔗 Live Demo
 
-👉 [View the Live Dashboard](https://mojalefa-04-fut-ravenstack-dashboardravenstack-dashboard-q4thtm.streamlit.app/)
+  [View the Live Dashboard](https://mojalefa-04-fut-ravenstack-dashboardravenstack-dashboard-q4thtm.streamlit.app/)
 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn is one of the biggest challenges for subscription businesses. This project performs a full end-to-end retention analysis across 5 datasets — identifying **why customers leave**, **when they leave**, and **what can be done to keep them**.
 
@@ -24,25 +24,26 @@ Customer churn is one of the biggest challenges for subscription businesses. Thi
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-ravenstack-dashboard/
-├── ravenstack_dashboard.py       # Main Streamlit app
-├── requirements.txt              # Python dependencies
-├── .gitignore                    # Files excluded from Git
-├── README.md                     # Project documentation
-└── data/
-    ├── ravenstack_accounts.csv
-    ├── ravenstack_churn_events.csv
-    ├── ravenstack_feature_usage.csv
-    ├── ravenstack_subscriptions.csv
-    └── ravenstack_support_tickets.csv
+FUTURE_DS_02/
+ Ravenstack_Dashboard/
+ ├── ravenstack_dashboard.py       # Main Streamlit app
+ ├── requirements.txt              # Python dependencies
+ ├── .gitignore                    # Files excluded from Git
+ └── Dataset/
+     ├── ravenstack_accounts.csv
+     ├── ravenstack_churn_events.csv
+     ├── ravenstack_feature_usage.csv
+     ├── ravenstack_subscriptions.csv
+     └── ravenstack_support_tickets.csv
+ README.md                         # Project documentation
 ```
 
 ---
 
-## 📁 Dataset Description
+## Dataset Description
 
 | File | Records | Description |
 |------|---------|-------------|
@@ -54,7 +55,7 @@ ravenstack-dashboard/
 
 ---
 
-## 🧠 Analysis Workflow
+## Analysis Workflow
 
 The project is broken into **5 learning steps**:
 
@@ -68,7 +69,7 @@ The project is broken into **5 learning steps**:
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 - **5 interactive tabs** — Churn Analysis, Cohort Retention, Feature & Support, Revenue Impact, Recommendations
 - **Sidebar filters** — Filter by Plan Tier, Country, and Referral Source
@@ -79,7 +80,7 @@ The project is broken into **5 learning steps**:
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 | Insight | Value |
 |---------|-------|
@@ -93,7 +94,7 @@ The project is broken into **5 learning steps**:
 
 ---
 
-## ✅ Top Recommendations
+## Top Recommendations
 
 1. **Fix feature gaps** — the #1 driver of churn; run user research with at-risk accounts
 2. **Deploy churn risk scoring** — catch at-risk customers 30 days before they cancel
@@ -116,11 +117,11 @@ The project is broken into **5 learning steps**:
 
 ---
 
-## ⚙️ Installation & Running Locally
+## Installation & Running Locally
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/ravenstack-dashboard.git
+git clone https://github.com/Mojalefa-04/FUTURE_DS_02.git
 cd ravenstack-dashboard
 ```
 
@@ -138,7 +139,7 @@ Then open your browser at `http://localhost:8501`
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 This app is deployed on **Streamlit Community Cloud**.
 
@@ -151,7 +152,7 @@ To deploy your own copy:
 
 ---
 
-## 📚 Skills Demonstrated
+## Skills Demonstrated
 
 - Exploratory data analysis (EDA) across multiple related tables
 - Retention and cohort analysis
@@ -163,14 +164,9 @@ To deploy your own copy:
 
 ---
 
-## 👤 Author
+## Author
 
 **Your Name**
 - GitHub: [@Mojalefa-04](https://github.com/Mojalefa-04)
 - LinkedIn: [Mojalefa Mokhathi](https://www.linkedin.com/in/mojalefa-mokhathi-81540224a)
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.

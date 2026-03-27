@@ -6,8 +6,8 @@ An interactive data analytics dashboard built with **Streamlit**, **Plotly**, an
 
 ## 🔗 Live Demo
 
-👉 [View the Live Dashboard](https://your-username-ravenstack-dashboard.streamlit.app)
-> Replace this link with your Streamlit Community Cloud URL after deployment.
+👉 [View the Live Dashboard](https://mojalefa-04-fut-ravenstack-dashboardravenstack-dashboard-q4thtm.streamlit.app/)
+
 
 ---
 
@@ -166,8 +166,8 @@ To deploy your own copy:
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
+- GitHub: [@Mojalefa-04](https://github.com/Mojalefa-04)
+- LinkedIn: [Mojalefa Mokhathi](https://www.linkedin.com/in/mojalefa-mokhathi-81540224a)
 
 ---
 

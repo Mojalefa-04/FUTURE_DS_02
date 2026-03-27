@@ -137,13 +137,12 @@ def run_sql_queries(accounts, churn_events, feature_usage, subscriptions, suppor
 
     # Revenue by churn status
     revenue_churn = con.execute("""
-        SELECT a.churn_flag,
-               ROUND(AVG(s.mrr_amount), 0) AS avg_mrr,
-               ROUND(SUM(s.mrr_amount), 0) AS total_mrr,
+        SELECT s.churn_flag,
+               ROUND(AVG(s.mrr_amount), 0)    AS avg_mrr,
+               ROUND(SUM(s.mrr_amount), 0)    AS total_mrr,
                ROUND(AVG(s.duration_days), 0) AS avg_lifetime_days
         FROM subscriptions s
-        JOIN accounts a ON a.account_id = s.account_id
-        GROUP BY a.churn_flag
+        GROUP BY s.churn_flag
     """).df()
 
     # Feature usage vs churn

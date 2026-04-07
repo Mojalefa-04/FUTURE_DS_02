@@ -169,7 +169,7 @@ To deploy your own copy:
 
 ## 
 
-**Your Name**
+**Mojalefa Mokhathi**
 - GitHub: [@Mojalefa-04](https://github.com/Mojalefa-04)
 - LinkedIn: [Mojalefa Mokhathi](https://www.linkedin.com/in/mojalefa-mokhathi-81540224a)
 
